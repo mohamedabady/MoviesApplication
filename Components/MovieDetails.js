@@ -309,7 +309,7 @@ export default class MovieDetails extends Component {
 
         {/*render movie posters*/}
         <View style={styles.basicContainerStyle}>
-          <Text style={styles.labelTextStyle}>Movie Posters : </Text>
+          <Text style={styles.labelTextStyle}>Movie Posters : (swipe for more)</Text>
           <ImageSlider
             images={this.state.posters}
             height={400}
@@ -322,7 +322,7 @@ export default class MovieDetails extends Component {
 
         {/*render movie snapshots*/}
         <View style={styles.basicContainerStyle}>
-          <Text style={styles.labelTextStyle}>Movie Snapshots : </Text>
+          <Text style={styles.labelTextStyle}>Movie Snapshots : (swipe for more)</Text>
           <ImageSlider
             images={this.state.backdropImages}
             height={200}
